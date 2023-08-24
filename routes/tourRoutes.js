@@ -10,7 +10,7 @@ router
   .get(tourController.getAllTours)
   .post(
     tourController.checkBody,
-    tourController.createTour
+    tourController.createTour,
   );
 
 router
