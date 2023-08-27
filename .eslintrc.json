@@ -2,7 +2,6 @@
   "extends": ["airbnb", "prettier", "plugin:node/recommended"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": ["error", { "endOfLine": "warn" }],
     "spaced-comment": "off",
     "no-console": "warn",
     "consistent-return": "off",
@@ -24,7 +23,8 @@
         "version": ">=8.0.0",
         "ignores": []
       }
-    ]
+    ],
+    "import/no-extraneous-dependencies": "off"
     // "engine": {
     //   "node": ">=10.0.0"
     // }
