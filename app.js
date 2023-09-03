@@ -14,6 +14,9 @@ const reviewRoute = require('./routes/reviewRoutes');
 
 const app = express();
 
+app.set('view engine', 'pug');
+app.set('views', './views');
+
 // 1. GLOBAL MIDDLEWARE
 // Set Security HTTP header
 app.use(helmet());
